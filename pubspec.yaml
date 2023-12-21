@@ -1,0 +1,89 @@
+name: space_x
+description: "Test mobile app for SpaceX"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ENV CONFIG
+  flutter_dotenv: ^5.1.0
+
+  #  STATE MANAGEMENT
+  flutter_bloc: ^8.1.3
+
+  #  NAVIGATION
+  auto_route: ^7.8.4
+
+  #  NETWORK
+  dio: ^5.4.0
+
+  #  LOCALIZATION
+  easy_localization: ^3.0.3
+
+  #  LOCAL STORAGES
+  flutter_secure_storage: ^9.0.0
+
+  # IMAGES & ICONS
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+
+  #  UTILS
+  equatable: ^2.0.5
+  either_dart: ^1.0.0
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  build_runner: ^2.4.7
+  lint: ^2.2.0
+  auto_route_generator: ^7.3.2
+  flutter_native_splash: ^2.3.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env.dev
+    - .env.prod
+    - assets/images/
+    - assets/icons/
+    - assets/locale/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Black.ttf
+          weight: 900
+
+    - family: Akshar
+      fonts:
+        - asset: assets/fonts/Akshar-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Akshar-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Akshar-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Akshar-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Akshar-Bold.ttf
+          weight: 700

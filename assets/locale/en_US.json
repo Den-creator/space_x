@@ -1,0 +1,12 @@
+{
+ "something_went_wrong": "Error. Something went wrong.",
+ "no_result_found_lost_in_space": "No result found,\nLost in space",
+ "reload": "Reload",
+ "about_rocket": "About Rocket",
+ "characteristics": "Characteristics",
+ "height": "Height",
+ "diameter": "Diameter",
+ "mass": "Mass",
+ "meters": "Meters",
+ "kg": "Kg"
+}
