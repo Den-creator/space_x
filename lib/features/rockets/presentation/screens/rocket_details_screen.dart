@@ -32,7 +32,7 @@ class _RocketDetailsScreenState extends State<RocketDetailsScreen> {
   void initState() {
     super.initState();
     // Hide the status bar
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   }
 
   @override
