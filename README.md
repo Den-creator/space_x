@@ -9,3 +9,5 @@ There is still significant scope for enhancements to further improve user experi
 - **Additional Screens and Bottom App Tab Bar**: Introducing more screens for comprehensive content coverage and a bottom app tab bar for improved navigation.
 - **Custom Animations**: Developing custom animations such as loading, hero, and scroll animations to enrich the interactive experience of the app.
 - **Reusable Common Cubit with Generic Type**: Implementing a common cubit that allows for generic typing, enhancing code reusability and project scalability.
+
+Link to an app design that was planned but not fully implemented due to lack of time - https://www.figma.com/file/A9wsLzKrXZiZqtPZczrJEc/TEST?type=design&node-id=0%3A1&mode=design&t=M5rREhwAKc5883QI-1.  
